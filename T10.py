@@ -206,30 +206,10 @@ Setgroup ="""=࿅ོ࿆༼U.K-mora_yena bot selfbot༽࿅ོ࿆=
 ========================
 ========================
 """
-KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5]
-DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5]
+KAC=[cl]
+DEF=[ki]
 mid = cl.getProfile().mid
-["udee46099e25e71f1fd1817cae9e7c429"]
-Amid = ki.getProfile().mid
-["u927e8642b633ab4214ac8bb9267889d7"]
-Bmid = kk.getProfile().mid
-["u7fa2ce9fe592f5f02941fad640e1868e"]
-Cmid = kc.getProfile().mid
-["uf50a66ee773657022b4eab73f97e2c63"]
-Dmid = ks.getProfile().mid
-["uf4bbbf94cf2279a0dbc35591933820ee"]
-Emid = k1.getProfile().mid
-["ue3cef714bc71eea8eb5b824ed89ed13a"]
-Fmid = k2.getProfile().mid
-["u03204a690c6fe4617d794e260502ef6c"]
-Gmid = k3.getProfile().mid
-["u5ca025ee168314365be01ae289cd3826"]
-Hmid = k4.getProfile().mid
-["uc7ba276e8e25e324dae3d168dc8e8b50"]
-Imid = k5.getProfile().mid
-["u4d8789b78b2e1db7c5ec68efdf833f1b"]
-Smid = satpam.getProfile().mid
-["u49126e392c38ac609ad12b09be687ab4"]
+
 
 
 protectname = []
@@ -239,11 +219,11 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
-induk=["udee46099e25e71f1fd1817cae9e7c429"]
-Creator=["udee46099e25e71f1fd1817cae9e7c429","u927e8642b633ab4214ac8bb9267889d7"]
-admin=["udee46099e25e71f1fd1817cae9e7c429","u927e8642b633ab4214ac8bb9267889d7"]
-owner=["udee46099e25e71f1fd1817cae9e7c429","u927e8642b633ab4214ac8bb9267889d7"]
+Bots=[mid]
+induk=["u71b6799e1c37868a871d442e67633182"]
+Creator=["u71b6799e1c37868a871d442e67633182"]
+admin=["u71b6799e1c37868a871d442e67633182"]
+owner=["u71b6799e1c37868a871d442e67633182"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -314,59 +294,7 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
 
-contact = kk.getProfile()
-backup = kk.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = kc.getProfile()
-backup = kc.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = ks.getProfile()
-backup = ks.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = k1.getProfile()
-backup = k1.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = k2.getProfile()
-backup = k2.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = k3.getProfile()
-backup = k3.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = k4.getProfile()
-backup = k4.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = k5.getProfile()
-backup = k5.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
 
 def upload_tempimage(client):
      '''
